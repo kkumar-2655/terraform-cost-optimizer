@@ -43,7 +43,9 @@ pip install -r requirements.txt
 Dependencies:
 
 boto3
+
 openai
+
 python-hcl2
 
 ✅ 3. Configure AWS CLI
@@ -75,6 +77,7 @@ peer_to_prod (aws_vpc_peering_connection): $1.00
 - NAT Gateway is costly; consider consolidating or using serverless options.
 
 📝 Notes
+
 This tool does not change your Terraform code — it is read-only.
 
 You can extend support for more AWS services like RDS, ALB, S3, Lambda.
@@ -82,6 +85,7 @@ You can extend support for more AWS services like RDS, ALB, S3, Lambda.
 Supports parsing .tf files across multiple modules.
 
 💡 Inspiration
+
 Cost can grow silently in cloud infrastructure. This tool makes cost visibility and optimization suggestions proactive, not reactive — powered by AI.
 
 
