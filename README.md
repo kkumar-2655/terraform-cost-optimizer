@@ -28,6 +28,7 @@ This project analyzes your AWS Terraform infrastructure, estimates monthly costs
 
 ## 🖼️ Project Structure
 
+
 terraform-cost-optimizer/
 ├── run_optimizer.py
 ├── src/
@@ -47,9 +48,13 @@ terraform-cost-optimizer/
 
 
 git clone https://github.com/kkumar-2655/terraform-cost-optimizer.git
+
 cd terraform-cost-optimizer
+
 ✅ 2. Install Dependencies
+
 pip install -r requirements.txt
+
 Dependencies:
 
 boto3
