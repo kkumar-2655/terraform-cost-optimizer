@@ -68,6 +68,8 @@ python run_optimizer.py
 🧪 Example Output
 
 === Estimated Monthly Costs ===
+
+
 web_instance (t3.micro): $7.59
 
 nat_gw (aws_nat_gateway): $32.85
