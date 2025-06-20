@@ -24,21 +24,6 @@ This project analyzes your AWS Terraform infrastructure, estimates monthly costs
   - `cost_estimator.py`: Calculates cost using AWS Pricing API
   - `ai_suggester.py`: AI-powered savings recommendations
 
----
-
-## 🖼️ Project Structure
-
-
-terraform-cost-optimizer/
-├── run_optimizer.py
-├── src/
-│ ├── parse_tf.py
-│ ├── cost_estimator.py
-│ ├── ai_suggester.py
-├── pricing/aws_prices.csv # Optional fallback or sample
-├── requirements.txt
-└── README.md
-
 
 ---
 
