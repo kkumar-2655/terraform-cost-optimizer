@@ -69,10 +69,13 @@ python run_optimizer.py
 
 === Estimated Monthly Costs ===
 web_instance (t3.micro): $7.59
+
 nat_gw (aws_nat_gateway): $32.85
+
 peer_to_prod (aws_vpc_peering_connection): $1.00
 
 === AI Suggestions ===
+
 - Consider switching t3.micro to t3.nano if usage is low.
 - NAT Gateway is costly; consider consolidating or using serverless options.
 
